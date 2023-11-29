@@ -121,7 +121,7 @@ endif()
 
 FetchContent_Declare(
   mod_wasm2c
-  GIT_REPOSITORY https://github.com/WebAssembly/wabt/
+  GIT_REPOSITORY https://github.com/wrv/wabt/
   GIT_TAG main)
 FetchContent_GetProperties(mod_wasm2c)
 if(NOT mod_wasm2c_POPULATED)

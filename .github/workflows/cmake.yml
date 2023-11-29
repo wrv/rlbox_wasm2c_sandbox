@@ -2,7 +2,7 @@ name: Tests
 
 on:
   push:
-    branches: [ master, ci_debug ]
+    branches: [ master, ci_debug, forked_wabt ]
   pull_request:
     branches: [ master ]
   workflow_dispatch:
